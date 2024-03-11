@@ -6,7 +6,7 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 10px;">Short Bio</h2>
 
-I am currently a Biostatistics Ph.D. candidate at [University of Iowa](https://www.public-health.uiowa.edu/biostat/). My research involves Bayesian Statistics, Clinical trials, Machine Learning, and Statistical Genomics and Genetics.
+I am currently a Biostatistics Ph.D. candidate at [University of Iowa](https://www.public-health.uiowa.edu/biostat/). My research involves Bayesian adaptive design, Longitudinal Data Analysis, High-dimensional data, Machine Learning, and Statistical Genomics and Genetics.
 ## Research Interest:
 - **Ion-material Simulation:** SRIM, iradina, IMSIL, CORETO, TRIDYN, MARLOWE, RustBCA
 - **Machine Learning:** fairness AI, penalization and augmentation methods
