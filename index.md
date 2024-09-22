@@ -6,7 +6,7 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 10px;">Short Bio</h2>
 
-I am currently a Biostatistics Ph.D. candidate at [University of North Carolina at Chapel Hill, Gillings School of Global Public Health](https://sph.unc.edu/bios/biostatistics/). My research involves clinical trial design and analysis, Bayesian adaptive design, Longitudinal Data Analysis, High-dimensional data, Machine Learning, and Survival analysis.
+I am currently a Biostatistics Student at [University of Iowa](https://www.public-health.uiowa.edu/biostat/). My research involves Clinical Trials, Causal Inference, Bayesian Methods.
 ## Research Interest:
 - **Bayesian adaptive design:** SRIM, iradina, IMSIL, CORETO, TRIDYN, MARLOWE, RustBCA
 - **Machine Learning:** fairness AI, penalization and augmentation methods
