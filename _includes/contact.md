@@ -2,9 +2,9 @@
 
 <h2 style="margin: 30px 0px 10px;">Contact</h2>
 
-<p><strong>Address:</strong> <a href="https://www.google.com/maps/place/10+Bd+Thomas+Gobert,+91120+Palaiseau/@48.7124352,2.194429,17z/data=!3m1!4b1!4m6!3m5!1s0x47e678bdc3c9eee5:0xb68bc1fb5222c860!8m2!3d48.7124317!4d2.1970093!16s%2Fg%2F11h2c29d0k?entry=ttu">10 Bd Thomas Gobert, 91120 Palaiseau</a>
+<p><strong>Address:</strong> <a href="https://www.google.com/maps/place/RISE+at+Riverfront+Crossings/@41.6558157,-91.5345889,16z/data=!3m1!4b1!4m6!3m5!1s0x87e441ee258e1415:0xee5ceed1ed70710!8m2!3d41.6558117!4d-91.532014!16s%2Fg%2F11fz9z594d!5m1!1e1?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D">10 Bd Thomas Gobert, 91120 Palaiseau</a>
 <br />
-<strong>Office Location:</strong> Centre de Nanosciences et de Nanotechnologies
+<strong>Office Location:</strong> N377, College of Public Health
 <br />
 <strong>Email:</strong> <email>gapomochi (at) gmail.com</email>
 <br />
