@@ -6,13 +6,11 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 10px;">Short Bio</h2>
 
-I am currently a Biostatistics Student at [University of Iowa](https://www.public-health.uiowa.edu/biostat/). My research involves Clinical Trials, Causal Inference, Bayesian Methods.
+I am currently a Biostatistics Student at [University of Iowa](https://www.public-health.uiowa.edu/biostat/). My research involves Clinical Trials, Causal Inference, and Bayesian Statistics.
 ## Research Interest:
-- **Bayesian adaptive design:** SRIM, iradina, IMSIL, CORETO, TRIDYN, MARLOWE, RustBCA
-- **Machine Learning:** fairness AI, penalization and augmentation methods
-- **E-field controlled magnetization** VCMA, Strain-mediated ME (Magnetoelectric) Effects, Straintronic, iontronic, E-filed induced spin reorientation, SOT.
-- **Micro-, Nanofabrication**
-- **Neuromorphic Computing** Neuromorphic Sensing and Perception, Hybrid Computing Systems, Brain-Inspired Robotics
+- **Bayesian Phase I Clinical Trials:** 
+- **Causal Inference (Mendelian Randomization):**
+- **Machine Learning:** 
 {% include_relative _includes/news.md %}
 
 {% include_relative _includes/projects.md %}
