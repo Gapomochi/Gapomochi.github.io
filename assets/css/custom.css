@@ -1,12 +1,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;700&family=Montserrat:wght@400;500;600&family=Rubik:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
 
 :root {
   --teal: #5ba4a4;
   --teal-dark: #478f90;
   --dark: #333333;
   --body: rgba(29,29,29,.70);
-  --font-reading: "mokoko", "Bitter", Georgia, serif;
+  --font-reading: "mokoko", "Bitter", "Zen Antique", Georgia, serif;
   --font-nav: "proxima-nova", "Montserrat", Arial, sans-serif;
   --font-brand: "Rubik", sans-serif;
 }
@@ -219,4 +220,25 @@ body.colorscheme-light .page:has(#publication-preprints) article p a {
 body.colorscheme-light .page:has(#publication-preprints) article p a:hover {
   color: #478f90;
   text-decoration: underline;
+}
+
+
+:lang(ja) {
+  font-family: "Zen Antique", serif;
+  font-weight: 400;
+}
+
+
+
+
+/* Remove bold styling throughout the website */
+body.colorscheme-light h1,
+body.colorscheme-light h2,
+body.colorscheme-light h3,
+body.colorscheme-light h4,
+body.colorscheme-light h5,
+body.colorscheme-light h6,
+body.colorscheme-light strong,
+body.colorscheme-light b {
+  font-weight: 400 !important;
 }

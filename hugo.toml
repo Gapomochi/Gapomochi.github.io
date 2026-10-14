@@ -9,8 +9,11 @@ defaultContentLanguage = "en"
 pagerSize = 10
 
 [params]
-author = "Tian Zhao"
-info = "PhD Student in Biostatistics at the University of Iowa"
+author = "Tian Zhao | 趙天"
+info = [
+  "PhD Student in Biostatistics at the University of Iowa",
+  "アイオワ大学 生物統計学博士課程在籍"
+]
 description = "Personal Academic Website of Tian Zhao"
 avatarURL = "images/avatar.jpg"
 dateFormat = "2006-01-02"
