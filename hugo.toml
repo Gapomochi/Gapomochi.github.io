@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 pagerSize = 10
 
 [params]
-author = "Tian Zhao | 趙天"
+author = "Tian Zhao"
 info = [
   "PhD Student in Biostatistics at the University of Iowa",
   "アイオワ大学 生物統計学博士課程在籍"
@@ -47,6 +47,13 @@ name = "Google Scholar"
 icon = "fa fa-graduation-cap"
 weight = 3
 url = "https://scholar.google.com/citations?user=vG19mogAAAAJ&hl=en"
+
+[[params.social]]
+name = "email"
+icon = "fa fa-envelope-o"
+weight = 2
+url = "tian-zhao@uiowa.edu"
+
 
 # Code highlighting
 [markup.highlight]
