@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tian Zhao</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Tian Zhao</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;p&gt;I am a PhD Student in &lt;a href=&#34;https://www.public-health.uiowa.edu/biostat/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biostatistics&lt;/a&gt; at the University of Iowa.&lt;/p&gt;&#xA;&lt;p&gt;My undergraduate degree was in Financial Mathematics, and I previously worked as a Quantitative Researcher, focusing on high-frequency trading. My current research interests include &lt;strong&gt;Clinical Trials&lt;/strong&gt; (dose selection and optimization, seamless phase designs, and patient-focused drug development), &lt;strong&gt;Bayesian Methods&lt;/strong&gt; (Bayesian adaptive designs and Bayesian borrowing), and &lt;strong&gt;Causal Inference&lt;/strong&gt; (indirect comparisons, principal stratification, covariate adjustment, and surrogate endpoint validation). Some of these topics are related to my current work as a research assistant or will be explored in my dissertation research.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,76 @@
+
+baseURL = "https://gapomochi.github.io/"
+languageCode = "en-us"
+title = "Tian Zhao"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+
+[pagination]
+pagerSize = 10
+
+[params]
+author = "Tian Zhao"
+info = "PhD Student in Biostatistics at the University of Iowa"
+description = "Personal Academic Website of Tian Zhao"
+avatarURL = "images/avatar.jpg"
+dateFormat = "2006-01-02"
+since = 2026
+
+# Appearance
+colorScheme = "light"
+hideColorSchemeToggle = true
+customCSS = ["css/custom.css"]
+
+hideCredits = false
+hideCopyright = false
+rtl = false
+math = true
+
+# Social links
+[[params.social]]
+name = "GitHub"
+icon = "fa fa-github"
+weight = 1
+url = "https://github.com/Gapomochi"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin"
+weight = 2
+url = "https://www.linkedin.com/in/tzhao23"
+
+[[params.social]]
+name = "Google Scholar"
+icon = "fa fa-graduation-cap"
+weight = 3
+url = "https://scholar.google.com/citations?user=vG19mogAAAAJ&hl=en"
+
+# Code highlighting
+[markup.highlight]
+style = "monokai"
+
+# Navigation menu
+[[menu.main]]
+name = "Home"
+icon = "fa fa-home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+icon = "fa fa-user"
+url = "/about/"
+weight = 2
+
+
+[[menu.main]]
+name = "CV"
+icon = "fa fa-page"
+url = "https://github.com/Gapomochi"
+weight = 3
+
+
+[[menu.main]]
+name = "Publications"
+url = "/publication/"
+weight = 4

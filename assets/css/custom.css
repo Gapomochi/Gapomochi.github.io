@@ -1,0 +1,222 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;700&family=Montserrat:wght@400;500;600&family=Rubik:wght@300;400;500&display=swap");
+
+:root {
+  --teal: #5ba4a4;
+  --teal-dark: #478f90;
+  --dark: #333333;
+  --body: rgba(29,29,29,.70);
+  --font-reading: "mokoko", "Bitter", Georgia, serif;
+  --font-nav: "proxima-nova", "Montserrat", Arial, sans-serif;
+  --font-brand: "Rubik", sans-serif;
+}
+
+/* Background and body text */
+body.colorscheme-light {
+  background: #ffffff;
+  color: var(--body);
+  font: 300 16px/1.8 var(--font-reading);
+  letter-spacing: .06em;
+}
+
+/* All headings */
+body.colorscheme-light h1,
+body.colorscheme-light h2,
+body.colorscheme-light h3,
+body.colorscheme-light h4,
+body.colorscheme-light h5,
+body.colorscheme-light h6 {
+  font-family: var(--font-reading);
+}
+
+/* Left navigation title */
+body.colorscheme-light .navigation .navigation-title {
+    font-family: var(--font-reading);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    letter-spacing: .06em;
+    text-transform: none;
+    color: var(--body);
+  }
+
+/* Navigation links */
+body.colorscheme-light .navigation .navigation-list a {
+  font: 400 12px/1 var(--font-nav);
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: #1d1d1d;
+}
+
+body.colorscheme-light .navigation .navigation-list a:hover {
+  color: var(--teal);
+}
+
+/* Homepage name */
+body.colorscheme-light .centered .about h1 {
+  font-family: var(--font-reading);
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: .03em;
+  color: var(--teal);
+}
+
+/* Homepage subtitle */
+body.colorscheme-light .centered .about h2 {
+  font-family: var(--font-reading);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: .06em;
+  color: var(--body);
+}
+
+/* Page titles */
+body.colorscheme-light .content header h1 {
+  font-family: var(--font-reading);
+  font-weight: 700;
+  color: var(--teal);
+}
+
+/* Section headings */
+body.colorscheme-light .content article h2 {
+  font-family: var(--font-reading);
+  font-weight: 300;
+  color: var(--dark);
+}
+
+/* Article text */
+body.colorscheme-light .content article p {
+  font-family: var(--font-reading);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: .06em;
+  color: var(--body);
+}
+
+/* Links */
+body.colorscheme-light a {
+  color: var(--teal);
+}
+
+body.colorscheme-light a:hover {
+  color: var(--teal-dark);
+}
+
+/* Social icons */
+body.colorscheme-light .centered .about ul a {
+  color: #1d1d1d;
+}
+
+body.colorscheme-light .centered .about ul a:hover {
+  color: var(--teal);
+}
+
+/* Avatar */
+.avatar img {
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+/* Footer */
+body.colorscheme-light .footer {
+  background: #ffffff;
+  color: #777777;
+}
+
+/* Mobile navigation */
+@media (max-width: 768px) {
+  body.colorscheme-light .navigation .navigation-list {
+    background: #ffffff;
+  }
+}
+
+
+/* About page title */
+body.colorscheme-light .content header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* About page text */
+body.colorscheme-light .content article p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+}
+
+/* About section headings */
+body.colorscheme-light .content article h2 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+
+/* Footer font size */
+body.colorscheme-light .footer {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+}
+
+body.colorscheme-light .footer a {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+
+
+/* Publications page typography */
+
+/* Main title */
+body.colorscheme-light .page:has(#publication-preprints) header h1 {
+  font-family: var(--font-reading);
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  color: #333333;
+}
+
+/* Section headings */
+body.colorscheme-light .page:has(#publication-preprints) article h2 {
+  font-family: var(--font-reading);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #5ba4a4;
+  margin-top: 35px;
+  margin-bottom: 28px;
+}
+
+/* Publication entries */
+body.colorscheme-light .page:has(#publication-preprints) article p {
+  font-family: var(--font-reading);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  color: #777777;
+  margin-bottom: 36px;
+}
+
+/* Paper and software links */
+body.colorscheme-light .page:has(#publication-preprints) article p a {
+  font-family: var(--font-reading);
+  font-size: 14px;
+  font-weight: 300;
+  color: #5ba4a4;
+  text-decoration: none;
+}
+
+body.colorscheme-light .page:has(#publication-preprints) article p a:hover {
+  color: #478f90;
+  text-decoration: underline;
+}
