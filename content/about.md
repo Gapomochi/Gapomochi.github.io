@@ -4,7 +4,6 @@ date: 2026-10-14
 draft: false
 ---
 
-## About
 
 I am a PhD Student in [Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, where I am receiving rigorous training in statistics. I have been fortunate to receive guidance from Drs. [Emily Roberts](https://emilykroberts.github.io/), [Patrick Breheny](https://pbreheny.org/web/), [Gideon Zamba](https://www.public-health.uiowa.edu/faculty/gideon-zamba/) and [David Zahrieh](https://www.mayo.edu/research/faculty/zahrieh-david-m-ph-d/bio-20528095).
 
