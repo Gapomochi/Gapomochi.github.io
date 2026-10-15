@@ -242,3 +242,10 @@ body.colorscheme-light strong,
 body.colorscheme-light b {
   font-weight: 400 !important;
 }
+
+
+
+body.colorscheme-light #自己紹介 {
+  font-family: "Zen Antique", serif;
+  font-weight: 400;
+}
