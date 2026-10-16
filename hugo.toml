@@ -52,7 +52,7 @@ url = "https://scholar.google.com/citations?user=vG19mogAAAAJ&hl=en"
 name = "email"
 icon = "fa fa-envelope-o"
 weight = 2
-url = "tian-zhao@uiowa.edu"
+url = "mailto:yourname@uiowa.edu"
 
 
 # Code highlighting
