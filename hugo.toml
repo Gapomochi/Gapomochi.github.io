@@ -11,8 +11,7 @@ pagerSize = 10
 [params]
 author = "Tian Zhao"
 info = [
-  "PhD Student in Biostatistics at the University of Iowa",
-  "アイオワ大学 生物統計学博士課程在籍"
+  "PhD Student in Biostatistics at the University of Iowa"
 ]
 description = "Personal Academic Website of Tian Zhao"
 avatarURL = "images/avatar.jpg"
@@ -54,7 +53,6 @@ icon = "fa fa-envelope-o"
 weight = 2
 url = "mailto:tian-zhao@uiowa.edu"
 
-
 # Code highlighting
 [markup.highlight]
 style = "monokai"
@@ -72,13 +70,11 @@ icon = "fa fa-user"
 url = "/about/"
 weight = 2
 
-
 [[menu.main]]
 name = "CV"
 icon = "fa fa-page"
 url = "https://github.com/Gapomochi"
 weight = 3
-
 
 [[menu.main]]
 name = "Publications"
