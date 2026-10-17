@@ -252,3 +252,66 @@ body.colorscheme-light #自己紹介 {
   font-family: "Zen Antique", serif;
   font-weight: 400;
 }
+
+
+
+/* Software page typography */
+
+/* Main title */
+body.colorscheme-light .page:has(#software-r-packages) header h1 {
+  font-family: var(--font-reading);
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  color: #333333;
+}
+
+/* Section headings: R Packages, R Shiny */
+body.colorscheme-light .page:has(#software-r-packages) article h2 {
+  font-family: var(--font-reading);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #5ba4a4;
+  margin-top: 35px;
+  margin-bottom: 28px;
+}
+
+/* Package names: tumr */
+body.colorscheme-light .page:has(#software-r-packages) article h3 {
+  font-family: var(--font-reading);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+/* Descriptions */
+body.colorscheme-light .page:has(#software-r-packages) article p {
+  font-family: var(--font-reading);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  color: #777777;
+  margin-bottom: 36px;
+}
+
+/* GitHub and CRAN links */
+body.colorscheme-light .page:has(#software-r-packages) article p a {
+  font-family: var(--font-reading);
+  font-size: 14px;
+  font-weight: 300;
+  color: #5ba4a4;
+  text-decoration: none;
+}
+
+body.colorscheme-light .page:has(#software-r-packages) article p a:hover {
+  color: #478f90;
+  text-decoration: underline;
+}

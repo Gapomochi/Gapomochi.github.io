@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 14 Oct 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sat, 17 Oct 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Software</title>
+				<link>http://localhost:1313/software/</link>
+				<pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/software/</guid>
+				<description>&lt;h2 id=&#34;software-r-packages&#34;&gt;&#xA;  R Packages&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#software-r-packages&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;tumr&#34;&gt;&#xA;  tumr&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#tumr&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Tools for visualization and statistical modeling of longitudinal tumor growth data in mouse models.&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/pbreheny/tumr&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[GitHub]&lt;/a&gt; &lt;a href=&#34;https://github.com/pbreheny/tumr&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[CRAN]&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;qast&#34;&gt;&#xA;  qast&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#qast&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;A Quality Adjustment Survival Tool for a Patient-centered Personalized Care in Oncology.&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/Gapomochi/qast&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[GitHub]&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;r-shiny&#34;&gt;&#xA;  R Shiny&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#r-shiny&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;</description>
+			</item>
 			<item>
 				<title>About</title>
 				<link>http://localhost:1313/about/</link>
@@ -26,13 +33,6 @@
 				<pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/publication/</guid>
 				<description>&lt;h2 id=&#34;publication-preprints&#34;&gt;&#xA;  Preprints&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#publication-preprints&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;T. Zhao&lt;/strong&gt; and P. Breheny (2026). Visualization and Statistical Modeling of Longitudinal Tumor Growth in Mouse Models.&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/pbreheny/man-tumr&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[paper]&lt;/a&gt; &lt;a href=&#34;https://github.com/pbreheny/tumr&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[software]&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;T. Zhao&lt;/strong&gt;, D. Zahrieh, and G. K. D. Zamba (2026). What Are the Optimal Utilities in Q-TWiST? A New Patient-Centered Quality-Adjusted Survival Metric Framework for Comparative Treatment Benefit.&lt;/p&gt;&#xA;&lt;h2 id=&#34;publication-published&#34;&gt;&#xA;  Peer-reviewed Publications&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#publication-published&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;E. M. Voigt, A. L. Isaacson, M. R. Leidinger, J. A. Goeken, Q. Hanigan, D. F. Guo, R. M. Gasser, M. Eadie, I. Babor, B. W. Darbro, W. Paradee, K. Rahmouni, &lt;strong&gt;T. Zhao&lt;/strong&gt;, P. Breheny, E. Lee, M. Kim, D. K. Meyerholz, M. Milhem, R. D. Dodd, and D. E. Quelle (2026). Development of a Cre-inducible Rabl6a transgenic mouse model that enhances sarcoma growth in vivo. &lt;em&gt;Cancers&lt;/em&gt;, 18(14), 2230.&lt;br&gt;&#xA;&lt;a href=&#34;https://www.mdpi.com/2072-6694/18/14/2230&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[paper]&lt;/a&gt;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>自己紹介</title>
-				<link>http://localhost:1313/about.ja/</link>
-				<pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/about.ja/</guid>
-				<description>&lt;p&gt;現在、私はアイオワ大学の生物統計学博士課程に在籍し、統計学の専門的な教育と研究指導を受けています。&lt;/p&gt;&#xA;&lt;p&gt;学部では経済学分野の金融工学を専攻しました。その後、クオンツ・リサーチャーとして、確率解析や強化学習などの手法を用いた高頻度取引の研究に従事しました。しかし、次第に統計学的手法を応用して生物医学分野の問題を解決することに、より強い関心を持つようになりました。&lt;/p&gt;&#xA;&lt;p&gt;現在の研究関心は、臨床試験（用量選択・最適化、シームレスな臨床試験デザイン、患者中心の医薬品開発）、ベイズ統計学（ベイズ適応的試験デザイン、ベイズ借用法）、および因果推論（間接比較、主層別化、共変量調整、代替エンドポイントの妥当性検証）です。これらのテーマの一部は、これまで、あるいは現在取り組んでいる研究に関連しており、今後の博士論文研究でも取り組む予定です。&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
