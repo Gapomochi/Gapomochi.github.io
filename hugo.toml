@@ -73,7 +73,7 @@ weight = 2
 [[menu.main]]
 name = "CV"
 icon = "fa fa-page"
-url = "https://github.com/Gapomochi"
+url = "https://www.overleaf.com/project/6a6e289068033c6d0a9923db"
 weight = 3
 
 [[menu.main]]
