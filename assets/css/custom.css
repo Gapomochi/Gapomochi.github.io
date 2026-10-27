@@ -315,3 +315,81 @@ body.colorscheme-light .page:has(#software-r-packages) article p a:hover {
   color: #478f90;
   text-decoration: underline;
 }
+
+
+/* Slightly increase font sizes throughout the website */
+
+/* Body */
+body.colorscheme-light {
+  font-size: 17px;
+}
+
+/* Left navigation title */
+body.colorscheme-light .navigation .navigation-title {
+  font-size: 17px;
+}
+
+/* Navigation links */
+body.colorscheme-light .navigation .navigation-list a {
+  font-size: 13px;
+}
+
+/* Homepage name */
+body.colorscheme-light .centered .about h1 {
+  font-size: 44px;
+}
+
+/* Homepage subtitle */
+body.colorscheme-light .centered .about h2 {
+  font-size: 21px;
+}
+
+/* Page titles */
+body.colorscheme-light .content header h1 {
+  font-size: 30px;
+}
+
+/* About section headings */
+body.colorscheme-light .content article h2 {
+  font-size: 29px;
+}
+
+/* About page text */
+body.colorscheme-light .content article p {
+  font-size: 16px;
+}
+
+/* Footer */
+body.colorscheme-light .footer,
+body.colorscheme-light .footer a {
+  font-size: 13px;
+}
+
+/* Publications and Software page titles */
+body.colorscheme-light .page:has(#publication-preprints) header h1,
+body.colorscheme-light .page:has(#software-r-packages) header h1 {
+  font-size: 30px;
+}
+
+/* Publications and Software section headings */
+body.colorscheme-light .page:has(#publication-preprints) article h2,
+body.colorscheme-light .page:has(#software-r-packages) article h2 {
+  font-size: 14px;
+}
+
+/* Publications and Software descriptions */
+body.colorscheme-light .page:has(#publication-preprints) article p,
+body.colorscheme-light .page:has(#software-r-packages) article p {
+  font-size: 15px;
+}
+
+/* Publications and Software links */
+body.colorscheme-light .page:has(#publication-preprints) article p a,
+body.colorscheme-light .page:has(#software-r-packages) article p a {
+  font-size: 15px;
+}
+
+/* Software package names */
+body.colorscheme-light .page:has(#software-r-packages) article h3 {
+  font-size: 19px;
+}
