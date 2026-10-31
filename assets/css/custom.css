@@ -1,26 +1,43 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;700&family=Montserrat:wght@400;500;600&family=Rubik:wght@300;400;500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
+
+
+/* ========================================
+   1. Global Variables
+======================================== */
 
 :root {
   --teal: #5ba4a4;
   --teal-dark: #478f90;
   --dark: #333333;
-  --body: rgba(29,29,29,.70);
+  --body: rgba(29, 29, 29, 0.70);
+
   --font-reading: "mokoko", "Bitter", "Zen Antique", Georgia, serif;
   --font-nav: "proxima-nova", "Montserrat", Arial, sans-serif;
   --font-brand: "Rubik", sans-serif;
 }
 
-/* Background and body text */
+
+/* ========================================
+   2. Global Typography
+======================================== */
+
 body.colorscheme-light {
   background: #ffffff;
   color: var(--body);
-  font: 300 16px/1.8 var(--font-reading);
-  letter-spacing: .06em;
+
+  font-family: var(--font-reading);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
 }
 
+
 /* All headings */
+
 body.colorscheme-light h1,
 body.colorscheme-light h2,
 body.colorscheme-light h3,
@@ -28,23 +45,35 @@ body.colorscheme-light h4,
 body.colorscheme-light h5,
 body.colorscheme-light h6 {
   font-family: var(--font-reading);
+  font-weight: 400;
 }
 
+
+/* ========================================
+   3. Navigation
+======================================== */
+
 /* Left navigation title */
+
 body.colorscheme-light .navigation .navigation-title {
-    font-family: var(--font-reading);
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.8;
-    letter-spacing: .06em;
-    text-transform: none;
-    color: var(--body);
-  }
+  font-family: var(--font-reading);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--body);
+}
+
 
 /* Navigation links */
+
 body.colorscheme-light .navigation .navigation-list a {
-  font: 400 12px/1 var(--font-nav);
-  letter-spacing: .2em;
+  font-family: var(--font-nav);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #1d1d1d;
 }
@@ -53,59 +82,37 @@ body.colorscheme-light .navigation .navigation-list a:hover {
   color: var(--teal);
 }
 
+
+/* ========================================
+   4. Homepage
+======================================== */
+
 /* Homepage name */
+
 body.colorscheme-light .centered .about h1 {
   font-family: var(--font-reading);
-  font-size: 42px;
-  font-weight: 700;
-  letter-spacing: .03em;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
   color: var(--teal);
 }
+
 
 /* Homepage subtitle */
+
 body.colorscheme-light .centered .about h2 {
   font-family: var(--font-reading);
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 21px;
+  font-weight: 400;
   line-height: 1.8;
-  letter-spacing: .06em;
+  letter-spacing: 0.02em;
   color: var(--body);
 }
 
-/* Page titles */
-body.colorscheme-light .content header h1 {
-  font-family: var(--font-reading);
-  font-weight: 700;
-  color: var(--teal);
-}
 
-/* Section headings */
-body.colorscheme-light .content article h2 {
-  font-family: var(--font-reading);
-  font-weight: 300;
-  color: var(--dark);
-}
+/* Homepage social icons */
 
-/* Article text */
-body.colorscheme-light .content article p {
-  font-family: var(--font-reading);
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.8;
-  letter-spacing: .06em;
-  color: var(--body);
-}
-
-/* Links */
-body.colorscheme-light a {
-  color: var(--teal);
-}
-
-body.colorscheme-light a:hover {
-  color: var(--teal-dark);
-}
-
-/* Social icons */
 body.colorscheme-light .centered .about ul a {
   color: #1d1d1d;
 }
@@ -114,20 +121,249 @@ body.colorscheme-light .centered .about ul a:hover {
   color: var(--teal);
 }
 
+
 /* Avatar */
+
 .avatar img {
   border-radius: 50%;
   object-fit: cover;
   aspect-ratio: 1 / 1;
 }
 
-/* Footer */
+
+/* ========================================
+   5. General Page Typography
+======================================== */
+
+/* Page titles: About, Publications, Software */
+
+body.colorscheme-light .content header h1 {
+  font-family: var(--font-reading);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: var(--teal);
+}
+
+
+/* General article section headings */
+
+body.colorscheme-light .content article h2 {
+  font-family: "Zen Antique", serif;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--teal);
+}
+
+
+/* ========================================
+   6. Unified Article Text
+   About / Publications / Software
+======================================== */
+
+/* Content container */
+
+body.colorscheme-light .content,
+body.colorscheme-light .content article,
+body.colorscheme-light .content .page {
+  color: var(--body);
+  font-family: var(--font-reading);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+
+/* All article paragraphs and list text */
+
+body.colorscheme-light .content p,
+body.colorscheme-light .content li,
+body.colorscheme-light .content dd,
+body.colorscheme-light .content dt,
+body.colorscheme-light .content blockquote,
+body.colorscheme-light .content .description,
+body.colorscheme-light .list li,
+body.colorscheme-light .list .description {
+  font-family: var(--font-reading) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.8 !important;
+  letter-spacing: 0.01em !important;
+  color: var(--body) !important;
+}
+
+
+/* Inline elements inherit text formatting */
+
+body.colorscheme-light .content p span,
+body.colorscheme-light .content li span {
+  font-family: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+}
+
+
+/* ========================================
+   7. Links
+======================================== */
+
+/* General links */
+
+body.colorscheme-light a {
+  color: var(--teal);
+}
+
+body.colorscheme-light a:hover {
+  color: var(--teal-dark);
+}
+
+
+/* Links in article text */
+
+body.colorscheme-light .content p a,
+body.colorscheme-light .content li a,
+body.colorscheme-light .content .description a,
+body.colorscheme-light .list li a {
+  font-family: var(--font-reading);
+  font-weight: 400 !important;
+  letter-spacing: 0.01em !important;
+  color: var(--teal) !important;
+  text-decoration: none;
+}
+
+body.colorscheme-light .content p a:hover,
+body.colorscheme-light .content li a:hover,
+body.colorscheme-light .content .description a:hover,
+body.colorscheme-light .list li a:hover {
+  color: var(--teal-dark) !important;
+  text-decoration: underline;
+}
+
+
+/* ========================================
+   8. Publications Page
+======================================== */
+
+/* Section headings */
+
+body.colorscheme-light
+.page:has(#publication-preprints) article h2 {
+  font-family: var(--font-reading);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-top: 35px;
+  margin-bottom: 28px;
+}
+
+
+/* Common publication heading IDs */
+
+body.colorscheme-light .content article h2#publication-preprints,
+body.colorscheme-light .content article h2#preprints,
+body.colorscheme-light .content article h2#publications,
+body.colorscheme-light .content article h2#published {
+  font-family: var(--font-reading);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-top: 35px;
+  margin-bottom: 28px;
+}
+
+
+/* Publication entries use unified article text */
+
+
+/* ========================================
+   9. Software Page
+======================================== */
+
+/* R Packages and R Shiny headings */
+
+body.colorscheme-light
+.page:has(#software-r-packages) article h2,
+body.colorscheme-light .content article h2#software-r-packages,
+body.colorscheme-light .content article h2#r-packages,
+body.colorscheme-light .content article h2#r-shiny {
+  font-family: var(--font-reading);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-top: 35px;
+  margin-bottom: 28px;
+}
+
+
+/* Package names: tumr, qast, etc. */
+
+body.colorscheme-light .content article h3 {
+  font-family: var(--font-reading);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  color: var(--dark);
+  margin-bottom: 16px;
+}
+
+
+/* Package descriptions use unified article text */
+
+
+/* ========================================
+   10. Japanese Typography
+======================================== */
+
+body.colorscheme-light :lang(ja) {
+  font-family: "Zen Antique", serif !important;
+  font-weight: 400;
+}
+
+body.colorscheme-light #自己紹介 {
+  font-family: "Zen Antique", serif;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--teal);
+}
+
+
+/* ========================================
+   11. Footer
+======================================== */
+
 body.colorscheme-light .footer {
   background: #ffffff;
   color: #777777;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
 }
 
-/* Mobile navigation */
+body.colorscheme-light .footer a {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+
+/* ========================================
+   12. Mobile Navigation
+======================================== */
+
 @media (max-width: 768px) {
   body.colorscheme-light .navigation .navigation-list {
     background: #ffffff;
@@ -135,261 +371,22 @@ body.colorscheme-light .footer {
 }
 
 
-/* About page title */
-body.colorscheme-light .content header h1 {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1.4;
-}
+/* ========================================
+   13. Heading and Bold Styling
+======================================== */
 
-/* About page text */
-body.colorscheme-light .content article p {
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 1.8;
-  letter-spacing: 0.04em;
-}
-
-/* About section headings */
-body.colorscheme-light .content article h2 {
-  font-family: "Zen Antique", serif;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 1.4;
-  color: var(--teal);
-}
-
-
-/* Footer font size */
-body.colorscheme-light .footer {
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 1.6;
-  letter-spacing: 0.04em;
-}
-
-body.colorscheme-light .footer a {
-  font-size: 12px;
-  font-weight: 300;
-}
-
-
-
-/* Publications page typography */
-
-/* Main title */
-body.colorscheme-light .page:has(#publication-preprints) header h1 {
-  font-family: var(--font-reading);
-  font-size: 28px;
-  font-weight: 300;
-  line-height: 1.4;
-  letter-spacing: 0.05em;
-  color: #333333;
-}
-
-/* Section headings */
-body.colorscheme-light .page:has(#publication-preprints) article h2 {
-  font-family: var(--font-reading);
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 1.8;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: #5ba4a4;
-  margin-top: 35px;
-  margin-bottom: 28px;
-}
-
-/* Publication entries */
-body.colorscheme-light .page:has(#publication-preprints) article p {
-  font-family: var(--font-reading);
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.8;
-  letter-spacing: 0.06em;
-  color: #777777;
-  margin-bottom: 36px;
-}
-
-/* Paper and software links */
-body.colorscheme-light .page:has(#publication-preprints) article p a {
-  font-family: var(--font-reading);
-  font-size: 14px;
-  font-weight: 300;
-  color: #5ba4a4;
-  text-decoration: none;
-}
-
-body.colorscheme-light .page:has(#publication-preprints) article p a:hover {
-  color: #478f90;
-  text-decoration: underline;
-}
-
-
-:lang(ja) {
-  font-family: "Zen Antique", serif;
-  font-weight: 400;
-}
-
-
-
-
-/* Remove bold styling throughout the website */
+/* Keep headings regular */
 body.colorscheme-light h1,
 body.colorscheme-light h2,
 body.colorscheme-light h3,
 body.colorscheme-light h4,
 body.colorscheme-light h5,
-body.colorscheme-light h6,
-body.colorscheme-light strong,
-body.colorscheme-light b {
+body.colorscheme-light h6 {
   font-weight: 400 !important;
 }
 
-
-
-body.colorscheme-light #自己紹介 {
-  font-family: "Zen Antique", serif;
-  font-weight: 400;
-}
-
-
-
-/* Software page typography */
-
-/* Main title */
-body.colorscheme-light .page:has(#software-r-packages) header h1 {
-  font-family: var(--font-reading);
-  font-size: 28px;
-  font-weight: 300;
-  line-height: 1.4;
-  letter-spacing: 0.05em;
-  color: #333333;
-}
-
-/* Section headings: R Packages, R Shiny */
-body.colorscheme-light .page:has(#software-r-packages) article h2 {
-  font-family: var(--font-reading);
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 1.8;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: #5ba4a4;
-  margin-top: 35px;
-  margin-bottom: 28px;
-}
-
-/* Package names: tumr */
-body.colorscheme-light .page:has(#software-r-packages) article h3 {
-  font-family: var(--font-reading);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: 0.05em;
-  color: #333333;
-  margin-bottom: 16px;
-}
-
-/* Descriptions */
-body.colorscheme-light .page:has(#software-r-packages) article p {
-  font-family: var(--font-reading);
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.8;
-  letter-spacing: 0.06em;
-  color: #777777;
-  margin-bottom: 36px;
-}
-
-/* GitHub and CRAN links */
-body.colorscheme-light .page:has(#software-r-packages) article p a {
-  font-family: var(--font-reading);
-  font-size: 14px;
-  font-weight: 300;
-  color: #5ba4a4;
-  text-decoration: none;
-}
-
-body.colorscheme-light .page:has(#software-r-packages) article p a:hover {
-  color: #478f90;
-  text-decoration: underline;
-}
-
-
-/* Slightly increase font sizes throughout the website */
-
-/* Body */
-body.colorscheme-light {
-  font-size: 17px;
-}
-
-/* Left navigation title */
-body.colorscheme-light .navigation .navigation-title {
-  font-size: 17px;
-}
-
-/* Navigation links */
-body.colorscheme-light .navigation .navigation-list a {
-  font-size: 13px;
-}
-
-/* Homepage name */
-body.colorscheme-light .centered .about h1 {
-  font-size: 44px;
-}
-
-/* Homepage subtitle */
-body.colorscheme-light .centered .about h2 {
-  font-size: 21px;
-}
-
-/* Page titles */
-body.colorscheme-light .content header h1 {
-  font-size: 30px;
-}
-
-/* About section headings */
-body.colorscheme-light .content article h2 {
-  font-size: 29px;
-}
-
-/* About page text */
-body.colorscheme-light .content article p {
-  font-size: 16px;
-}
-
-/* Footer */
-body.colorscheme-light .footer,
-body.colorscheme-light .footer a {
-  font-size: 13px;
-}
-
-/* Publications and Software page titles */
-body.colorscheme-light .page:has(#publication-preprints) header h1,
-body.colorscheme-light .page:has(#software-r-packages) header h1 {
-  font-size: 30px;
-}
-
-/* Publications and Software section headings */
-body.colorscheme-light .page:has(#publication-preprints) article h2,
-body.colorscheme-light .page:has(#software-r-packages) article h2 {
-  font-size: 14px;
-}
-
-/* Publications and Software descriptions */
-body.colorscheme-light .page:has(#publication-preprints) article p,
-body.colorscheme-light .page:has(#software-r-packages) article p {
-  font-size: 15px;
-}
-
-/* Publications and Software links */
-body.colorscheme-light .page:has(#publication-preprints) article p a,
-body.colorscheme-light .page:has(#software-r-packages) article p a {
-  font-size: 15px;
-}
-
-/* Software package names */
-body.colorscheme-light .page:has(#software-r-packages) article h3 {
-  font-size: 19px;
+/* Restore bold text, including author names */
+body.colorscheme-light strong,
+body.colorscheme-light b {
+  font-weight: 700 !important;
 }

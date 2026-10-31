@@ -5,7 +5,7 @@ date: 2026-10-14
 draft: false
 ---
 
-## Preprints {#publication-preprints}
+## In preparation {#publication-preprints}
 
 **T. Zhao** and P. Breheny (2026). Visualization and Statistical Modeling of Longitudinal Tumor Growth in Mouse Models.  
 [[paper]](https://github.com/pbreheny/man-tumr) [[software]](https://github.com/pbreheny/tumr)
