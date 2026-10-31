@@ -43,17 +43,24 @@ icon = "fa fa-linkedin"
 weight = 2
 url = "https://www.linkedin.com/in/tzhao23"
 
-[[params.social]]
-name = "Google Scholar"
-icon = "fa fa-graduation-cap"
-weight = 3
-url = "https://scholar.google.com/citations?user=vG19mogAAAAJ&hl=en"
 
 [[params.social]]
 name = "email"
 icon = "fa fa-envelope-o"
-weight = 2
+weight = 3
 url = "mailto:tian-zhao@uiowa.edu"
+
+[[params.social]]
+name = "Google Scholar"
+icon = "fa fa-graduation-cap"
+weight = 4
+url = "https://scholar.google.com/citations?user=vG19mogAAAAJ&hl=en"
+
+[[params.social]]
+name = "ORCID"
+icon = "fa fa-orcid"
+weight = 5
+url = "https://orcid.org/0009-0006-9527-286X"
 
 # Code highlighting
 [markup.highlight]
