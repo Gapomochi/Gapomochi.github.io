@@ -25,7 +25,7 @@ colorScheme = "light"
 hideColorSchemeToggle = true
 customCSS = ["css/custom.css"]
 
-hideCredits = false
+hideCredits = true
 hideCopyright = false
 rtl = false
 math = true
