@@ -52,7 +52,7 @@ url = "mailto:tian-zhao@uiowa.edu"
 
 [[params.social]]
 name = "Google Scholar"
-icon = "fa fa-graduation-cap"
+icon = "fa-brands fa-google-scholar"
 weight = 4
 url = "https://scholar.google.com/citations?user=vG19mogAAAAJ&hl=en"
 
