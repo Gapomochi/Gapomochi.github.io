@@ -390,3 +390,12 @@ body.colorscheme-light strong,
 body.colorscheme-light b {
   font-weight: 700 !important;
 }
+
+
+/* Fix uneven word spacing */
+
+body.colorscheme-light .content article p,
+body.colorscheme-light .content p {
+  text-align: left !important;
+  word-spacing: normal !important;
+}
